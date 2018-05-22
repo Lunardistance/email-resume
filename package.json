@@ -1,10 +1,13 @@
 {
   "name": "web2000",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "nodemailer": "^4.6.4",
+    "nodemailer-smtp-transport": "^2.7.4"
   },
   "devDependencies": {},
   "scripts": {
@@ -12,5 +15,14 @@
     "start": "nodemon server.js"
   },
   "author": "Gabriel Luciano",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lunardistance/email-resume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lunardistance/email-resume/issues"
+  },
+  "homepage": "https://github.com/Lunardistance/email-resume#readme",
+  "description": ""
 }
